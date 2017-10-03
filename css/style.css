@@ -1,0 +1,197 @@
+@media only screen and (min-width: 1199px) {
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Raleway', serif;
+    color: #333;
+}
+
+.wrap {
+}
+
+.BGwhite {
+    background-color: #FFF;
+    height: 70px;
+    margin-bottom: 250px;
+}
+
+.contents {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header i.fa {
+    margin: 15px 0;
+}
+
+.contentsBtn {
+    background-color: #74cfae;
+    float: right;
+    margin: 15px 0;
+}
+
+.contentsBtn p {
+    font-size: 12px;
+    padding: 14px 12px;
+    color: #fff;
+}
+
+.maintitle  {
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+.maintitle p.title1 {
+    margin-bottom: 20px;
+    color: #74cfae;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.maintitle p.title2 {
+    color: #c0c0c0;
+    font-size: 30px;
+}
+
+.BGblue {
+    background-color: #74cfae;
+    height: 345px;
+    margin-bottom: 60px;
+}
+
+.BGblue .whatCan {
+    width: 1100px;
+    height: 345px;
+    margin: 0 auto;
+}
+
+.BGblue .whatCan img {
+    float: left;
+    margin: 50px 120px 0 70px;
+}
+
+.BGblue .whatCan .whatCanTxt {
+    width: 700px;
+    margin-top: 70px;
+    float: right;
+}
+
+.BGblue .whatCan .whatCanTxt p {
+    color: #fff;
+}
+
+.BGblue .whatCan .whatCanTxt p.whatCanTxt1 {
+    font-size: 24px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.BGblue .whatCan .whatCanTxt p.whatCanTxt2 {
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.ourWork {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.ourWork p.ourWorkTitle {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.ourWork .works {
+    height:683px;
+    margin-bottom: 90px;
+}
+
+.ourWork li {
+    float: left;
+    margin: 0 100px 80px 0;
+}
+
+.ourWork li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.ourWork li:nth-child(n+4) {
+    margin-bottom: 90px;
+}
+
+.worksTxt {
+    height: 46px;
+    margin-bottom: 70px;
+}
+
+.workstext {
+    float:left;
+    padding: 0 90px;
+    width: 730px;
+    line-height: 1.5em;
+}
+
+.emailBtn {
+    float: left;
+    background-color: #74cfae;
+    font-size: 12px;
+    color: #fff;
+    padding:14px;
+}
+
+.BGgray {
+    background-color: #4e4e4e;
+    padding: 70px 0 100px 0;
+}
+
+.BGgray p {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.BGgray  {
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.BGgray ul {
+    overflow: hidden;
+    width: 1028px;
+    margin: auto;
+}
+
+.BGgray li {
+    margin-right: 180px;
+    float: left;
+}
+
+.BGgray li p {
+    margin: 10px 0 0 0;
+    font-size: 16px;
+}
+
+.BGgray li:last-child {
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+padding:14px
+; 
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
