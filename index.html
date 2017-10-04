@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="wrap clearfix">
+<div class="wrap">
     <header>
         <div class="BGwhite">
-            <div class="contents">
+            <div class="contents clearfix">
                 <i class="fa fa-bolt fa" aria-hidden="true"></i>
                 <div class="contentsBtn"><p>Contact</p></div>
             </div>
@@ -30,23 +30,23 @@
     </div>
     <div class="BGblue">
         <div class="whatCan">
-            <img src="img/iphone.png" alt="">
-            <div class="whatCanTxt">
+            <img src="img/iphone.png" class="whatCan__img" alt="">
+            <article class="whatCanTxt">
                 <p class="whatCanTxt1">WHAT WE CAN DO?</p>
                 <p class="whatCanTxt2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </div>
+            </article>
         </div>
     </div>
     <div class="ourWork clearfix">
         <p class="ourWorkTitle">OUR LATEST WORK</p>
         <div class="works">
             <ul>
-                <li><img src="img/01.jpg" alt=""></li>
-                <li><img src="img/02.jpg" alt=""></li>
-                <li><img src="img/03.jpg" alt=""></li>
-                <li><img src="img/04.jpg" alt=""></li>
-                <li><img src="img/05.jpg" alt=""></li>
-                <li><img src="img/06.jpg" alt=""></li>
+                <li><img src="img/01.jpg" class="ourWork__img" alt=""></li>
+                <li><img src="img/02.jpg" class="ourWork__img" alt=""></li>
+                <li><img src="img/03.jpg" class="ourWork__img" alt=""></li>
+                <li><img src="img/04.jpg" class="ourWork__img" alt=""></li>
+                <li><img src="img/05.jpg" class="ourWork__img" alt=""></li>
+                <li><img src="img/06.jpg" class="ourWork__img" alt=""></li>
             </ul>
         </div>
         <div class="worksTxt clearfix">
@@ -54,15 +54,28 @@
             <p class="emailBtn">Email me!</p>
         </div>
     </div>
-    <div class="BGgray clearfix">
+    <nav class="BGgray clearfix">
         <p>OUR SKILLS</p>
         <ul>
-            <li><img src="img/circle_01.png" alt=""><p>JavaScript</p></li>
-            <li><img src="img/circle_02.png" alt=""><p>Bootstrap</p></li>
-            <li><img src="img/circle_03.png" alt=""><p>WordPress</p></li>
-            <li><img src="img/circle_04.png" alt=""><p>Photoshop</p></li>
+            <li><img src="img/circle_01.png" alt=""><p class="skill_word">JavaScript</p></li>
+            <li><img src="img/circle_02.png" alt=""><p class="skill_word">Bootstrap</p></li>
+            <li><img src="img/circle_03.png" alt=""><p class="skill_word">WordPress</p></li>
+            <li><img src="img/circle_04.png" alt=""><p class="skill_word">Photoshop</p></li>
         </ul>
+    </nav>
+    <div class="SNS">
+        <div class="SNSicon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+        <div class="SNSicon"><i class="fa fa-dribbble" aria-hidden="true"></i></div>
+        <div class="SNSicon"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+        <div class="SNSicon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
     </div>
+    <footer>
+        <div class="BGblue_footer clearfix">
+            <div class="footerBox">
+                <p class="footerTxt">Crafted with &#9829; by BlackTle.co.</p>
+            </div>
+        </div>
+    </footer>
 </div>
 <script src="js/script.js"></script>
 </body>

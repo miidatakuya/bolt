@@ -1,18 +1,54 @@
-@media only screen and (min-width: 1199px) {
-
 body {
     background-color: #f2f2f2;
     font-family: 'Raleway', serif;
     color: #333;
+    padding-top: 320px;
+}
+.maintitle  {
+    text-align: center;
+    margin-bottom: 250px;
 }
 
-.wrap {
+.title1 {
+    margin-bottom: 20px;
+    color: #74cfae;
+    font-size: 90px;
+    font-weight: 700;
 }
+
+.title2 {
+    color: #c0c0c0;
+    font-size: 30px;
+}
+
+.whatCanTxt p {
+    color: #fff;
+}
+
+.ourWork__img {
+    width: 300px;
+    height: 300px;
+    opacity: .7;
+}
+.ourWork__img:hover {
+    opacity: 1;
+}
+
+/*ここまで共通のCSS */
+
+
+@media only screen and (min-width: 1200px) {
+
 
 .BGwhite {
+    position: fixed;
+    top: 0;
+    padding: 0;
+    width: 100%;
     background-color: #FFF;
     height: 70px;
     margin-bottom: 250px;
+    z-index: 9999;
 }
 
 .contents {
@@ -22,6 +58,7 @@ body {
 
 header i.fa {
     margin: 15px 0;
+    font-size: 250%;
 }
 
 .contentsBtn {
@@ -36,57 +73,36 @@ header i.fa {
     color: #fff;
 }
 
-.maintitle  {
-    text-align: center;
-    margin-bottom: 250px;
-}
-
-.maintitle p.title1 {
-    margin-bottom: 20px;
-    color: #74cfae;
-    font-size: 90px;
-    font-weight: 700;
-}
-
-.maintitle p.title2 {
-    color: #c0c0c0;
-    font-size: 30px;
-}
-
 .BGblue {
     background-color: #74cfae;
     height: 345px;
     margin-bottom: 60px;
 }
 
-.BGblue .whatCan {
+.whatCan {
     width: 1100px;
     height: 345px;
     margin: 0 auto;
 }
 
-.BGblue .whatCan img {
+.whatCan__img {
     float: left;
     margin: 50px 120px 0 70px;
 }
 
-.BGblue .whatCan .whatCanTxt {
+.whatCanTxt {
     width: 700px;
     margin-top: 70px;
     float: right;
 }
 
-.BGblue .whatCan .whatCanTxt p {
-    color: #fff;
-}
-
-.BGblue .whatCan .whatCanTxt p.whatCanTxt1 {
+.whatCanTxt1 {
     font-size: 24px;
     margin-bottom: 35px;
     text-align: center;
 }
 
-.BGblue .whatCan .whatCanTxt p.whatCanTxt2 {
+.whatCanTxt2 {
     font-size: 20px;
     line-height: 1.5em;
     text-align: center;
@@ -97,13 +113,13 @@ header i.fa {
     margin: 0 auto;
 }
 
-.ourWork p.ourWorkTitle {
+.ourWorkTitle {
     text-align: center;
     margin-bottom: 40px;
     font-size: 24px;
 }
 
-.ourWork .works {
+.works {
     height:683px;
     margin-bottom: 90px;
 }
@@ -141,6 +157,10 @@ header i.fa {
     padding:14px;
 }
 
+.emailBtn:hover {
+    color: #333;
+}
+
 .BGgray {
     background-color: #4e4e4e;
     padding: 70px 0 100px 0;
@@ -168,8 +188,8 @@ header i.fa {
     float: left;
 }
 
-.BGgray li p {
-    margin: 10px 0 0 0;
+.skill_word {
+    margin-top: 20px;
     font-size: 16px;
 }
 
@@ -177,6 +197,43 @@ header i.fa {
     margin-right: 0;
 }
 
+.SNS {
+    width: 740px;
+    margin: 0 auto;
+    height: 95px;
+    margin-bottom: 200px;
+}
+
+.SNSicon {
+    float: left;
+    width: 185px;
+    padding: 20px 0;
+    color: #74cfae;
+    text-align: center;
+    font-size: 350%;
+}
+
+.SNSicon:hover {
+    background-color: #fff;
+}
+
+.BGblue_footer {
+    background-color: #74cfae;
+    height: 61px;
+}
+
+.footerBox {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.footerTxt {
+    float: right;
+    margin: 20px 0 25px 0;
+    color: #fff; 
+}
+
+} /* 1200px以上の時に効くCSS */
 
 
 
@@ -188,10 +245,197 @@ header i.fa {
 
 
 
-padding:14px
-; 
+
+@media only screen and (max-width: 1199px) {
+
+
+.BGwhite {
+    position: fixed;
+    top: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #FFF;
+    height: 70px;
+    margin-bottom: 250px;
+    z-index: 9999;
+}
+
+.contents {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header i.fa {
+    margin: 15px 0;
+    font-size: 250%;
+    margin-left: 5%;
+}
+
+.contentsBtn {
+    background-color: #74cfae;
+    float: right;
+    margin: 15px 0;
+    margin-right: 5%;
+}
+
+.contentsBtn p {
+    font-size: 12px;
+    padding: 14px 12px;
+    color: #fff;
+}
+
+.BGblue {
+    background-color: #74cfae;
+    margin-bottom: 60px;
+}
+
+.whatCan {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.whatCan__img {
+    margin: 0 auto;
+    padding: 50px 0 20px;
+}
+
+.whatCanTxt {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.whatCanTxt1 {
+    font-size: 24px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.whatCanTxt2 {
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.ourWork {
+    width: 100%;
+}
+
+.ourWorkTitle {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.works li {
+    width: 100%;
+    text-align: center;
+}
+
+.ourWork li:nth-child(3n) {
+    margin-bottom: 80px;
+}
+
+.worksTxt {
+    margin-bottom: 70px;
+}
+
+.workstext {
+    width: 90%;
+    line-height: 1.5em;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.emailBtn {
+    width: 82px;
+    background-color: #74cfae;
+    font-size: 12px;
+    color: #fff;
+    padding:14px;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.emailBtn:hover {
+    color: #333;
+}
+
+.BGgray p {
+    text-align: center;
+    color: #fff;
+}
+
+.BGgray  {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    background-color: #4e4e4e;
+    padding-top: 70px;
+}
+.BGgray li {
+    text-align: center;
+}
+
+.skill_word {
+    margin-top: 20px;
+    font-size: 16px;
+    padding-bottom: 88px;
+}
+
+.SNS {
+    width: 740px;
+    margin: 0 auto;
+    height: 95px;
+    margin-bottom: 200px;
+}
+
+.SNSicon {
+    float: left;
+    width: 185px;
+    padding: 20px 0;
+    color: #74cfae;
+    text-align: center;
+    font-size: 350%;
+}
+
+.SNSicon:hover {
+    background-color: #fff;
+}
+
+.BGblue_footer {
+    background-color: #74cfae;
+    height: 61px;
+}
+
+.footerBox {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.footerTxt {
+    float: right;
+    margin: 20px 0 25px 0;
+    color: #fff; 
+}
+
+
+} /* タブレット CSS */
+
+
+@media screen and (max-device-width: 766px)  {
+
+} /* スマホ CSS */
+
+
+
+
+
+
 .clearfix:after {
     display: block;
-    content: "";
+    content:"";
     clear: both;
 }
