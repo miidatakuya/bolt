@@ -68,8 +68,24 @@ header i.fa {
     height: 300px;
     opacity: .7;
 }
+
 .ourWork__img:hover {
     opacity: 1;
+}
+
+.workstext {
+    line-height: 1.5em;
+}
+
+.emailBtn {
+    background-color: #74cfae;
+    font-size: 12px;
+    color: #fff;
+    padding:14px;
+}
+
+.emailBtn:hover {
+    color: #333;
 }
 
 .BGgray  {
@@ -79,18 +95,22 @@ header i.fa {
     padding-top: 70px;
 }
 
-.SNS {
-    width: 740px;
-    margin: 0 auto;
-    height: 95px;
-    margin-bottom: 200px;
+.skills {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.skill_word {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
 }
 
 .SNSicon {
-    float: left;
-    width: 185px;
-    padding: 20px 0;
     color: #74cfae;
+    padding: 20px 0;
     text-align: center;
     font-size: 350%;
 }
@@ -166,7 +186,7 @@ header i.fa {
 }
 
 .works {
-    height:683px;
+    height:680px;
     margin-bottom: 90px;
 }
 
@@ -184,7 +204,6 @@ header i.fa {
 }
 
 .worksTxt {
-    height: 46px;
     margin-bottom: 70px;
 }
 
@@ -192,25 +211,10 @@ header i.fa {
     float:left;
     padding: 0 90px;
     width: 730px;
-    line-height: 1.5em;
 }
 
 .emailBtn {
     float: left;
-    background-color: #74cfae;
-    font-size: 12px;
-    color: #fff;
-    padding:14px;
-}
-
-.emailBtn:hover {
-    color: #333;
-}
-
-.BGgray p {
-    text-align: center;
-    color: #fff;
-    margin-bottom: 50px;
 }
 
 .BGgray ul {
@@ -222,15 +226,23 @@ header i.fa {
 .BGgray li {
     margin-right: 180px;
     float: left;
-}
-
-.skill_word {
-    margin-top: 20px;
-    font-size: 16px;
+    padding-bottom: 100px;
 }
 
 .BGgray li:last-child {
     margin-right: 0;
+}
+
+.SNS {
+    width: 740px;
+    margin: 0 auto;
+    height: 95px;
+    margin-bottom: 200px;
+}
+
+.SNSicon {
+    float: left;
+    width: 185px;
 }
 
 .footerBox {
@@ -307,7 +319,6 @@ header i.fa {
 
 .workstext {
     width: 90%;
-    line-height: 1.5em;
     margin: 0 auto;
     margin-bottom: 40px;
     text-align: center;
@@ -315,32 +326,36 @@ header i.fa {
 
 .emailBtn {
     width: 82px;
-    background-color: #74cfae;
-    font-size: 12px;
-    color: #fff;
-    padding:14px;
     margin: 0 auto; 
     text-align: center;
-}
-
-.emailBtn:hover {
-    color: #333;
-}
-
-.BGgray p {
-    text-align: center;
-    color: #fff;
-    margin-bottom: 40px;
 }
 
 .BGgray li {
     text-align: center;
 }
 
+.BGgray li:last-child {
+    padding-bottom: 12px;
+}
+
 .skill_word {
-    margin-top: 20px;
-    font-size: 16px;
     padding-bottom: 88px;
+}
+
+.SNS {
+    width: 740px;
+    margin: 0 auto;
+    height: 95px;
+    margin-bottom: 200px;
+}
+
+.SNSicon {
+    float: left;
+    width: 185px;
+    padding: 20px 0;
+    color: #74cfae;
+    text-align: center;
+    font-size: 350%;
 }
 
 .footerBox {
@@ -354,8 +369,123 @@ header i.fa {
 
 } /* タブレット CSS */
 
+@media only screen and (max-width: 766px) {
 
-@media screen and (max-device-width: 766px)  {
+body{
+    padding-top: 160px;
+}
+
+.contentsBtn {
+    display: none;
+}
+
+.maintitle  {
+    margin-bottom: 130px;
+}
+
+.title1 {
+    font-size: 80px;
+}
+
+.whatCan {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.whatCan__img {
+    margin: 0 auto;
+    padding: 50px 0 20px;
+}
+
+.whatCanTxt {
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.whatCanTxt1 {
+    font-size: 24px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.whatCanTxt2 {
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.ourWork {
+    width: 100%;
+}
+
+.ourWorkTitle {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.ourWork li:nth-child(3n) {
+    margin-bottom: 80px;
+}
+
+.ourWork__img {
+    width: 100%;
+    height: 100%;
+}
+
+.worksTxt {
+    margin-bottom: 70px;
+}
+
+.workstext {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.emailBtn {
+    width: 82px;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.BGgray{
+    margin-bottom: 50px ;
+}
+
+.BGgray li {
+    text-align: center;
+}
+
+.BGgray li:last-child {
+    padding-bottom: 12px;
+}
+
+.skill_word {
+    padding-bottom: 88px;
+}
+
+.SNS {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.SNSicon {
+    text-align: center;
+    margin: 0 15px;
+}
+
+.footerBox {
+    width: 100%;
+}
+
+.footerTxt {
+    margin-right: 2%;
+}
 
 } /* スマホ CSS */
 
