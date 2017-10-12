@@ -12,12 +12,13 @@ body {
     width: 100%;
     background-color: #FFF;
     margin-bottom: 250px;
+    border-bottom: #EBEBEB 1px solid;
     z-index: 9999;
 }
 
 .contents {
     width: 95%;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 header i.fa {
@@ -65,7 +66,8 @@ header i.fa {
 
 .ourWork__img {
     width: 300px;
-    height: 300px;
+    display: block;
+    margin: 0 auto;
     opacity: .7;
 }
 
@@ -379,6 +381,51 @@ body{
     display: none;
 }
 
+.menu_nav {
+    width: 100%;
+    border-top: #EBEBEB 1px solid;
+}
+
+.menuSP  {
+    background-color: #74cfae;
+    margin: 10px 0 30px 0;
+}
+
+.menuSP p {  
+    font-size: 12px;
+    padding: 14px 12px;
+    color: #fff;
+    border-bottom: #EBEBEB 1px solid;
+}
+
+.menuSP a {
+    text-decoration: none;
+}
+
+.hum_toggle {
+    margin-top: 15px;
+    width: 25px;
+    float: right;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.hum_toggle span {
+    display: block;
+    height: 4px;
+    width: 100%;
+    background: #f2f2f2;
+}
+
+.hum_toggle span:nth-child(2) {
+    margin-top: 5px;
+}
+
+.hum_toggle span:nth-child(3) {
+    margin-top: 5px;
+}
+
 .maintitle  {
     margin-bottom: 130px;
 }
@@ -394,7 +441,6 @@ body{
 }
 
 .whatCan__img {
-    margin: 0 auto;
     padding: 50px 0 20px;
 }
 
@@ -430,9 +476,13 @@ body{
     margin-bottom: 80px;
 }
 
+.works {
+    margin: 0 2%;
+}
+
 .ourWork__img {
+    display: block;
     width: 100%;
-    height: 100%;
 }
 
 .worksTxt {
@@ -486,6 +536,12 @@ body{
 .footerTxt {
     margin-right: 2%;
 }
+
+
+
+
+
+
 
 } /* スマホ CSS */
 
